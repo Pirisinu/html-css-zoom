@@ -4,19 +4,52 @@
   padding: 0;
   box-sizing: border-box;
 }
+.
 /* DEBUG */
 .debug{
   background-color: rgba(137, 43, 226, 0.363);
   border: 1px solid black;
 }
-/* MAIN */
-main .top-bar{
+.debug-box{
+  background-color: rgba(137, 43, 226, 0.363);
+  border: 1px solid black;
+  min-height: 50px;
+  min-width: 50px;
+}
+/* FLEX */
+.d-flex{
+  display: flex;
+}
+/* SECTION TOP */
+main section.top-bar{
   height: 60px;
+  justify-content: flex-end;
 }
-main .box-main{
+main section.top-bar .logo{
+
+}
+/*SECTION MIDDLE */
+main section.box-main{
   height: calc(100vh - 150px);
+  max-width: 1200px;
+  margin: 0px auto;
+  flex-wrap: wrap;
+  overflow: hidden;
 }
-main .bottom-bar{
+main section.box-main .box-img{
+  height: 300px;
+  width: 200px;
+}
+/*SECTION BOTTOM */
+main section.bottom-bar{
   height: 90px;
   bottom: 0;
+}
+main section.bottom-bar .sect-sml{
+  width: 15%;
+  height: 100%;
+}
+main section.bottom-bar .sect-lrg{
+  width: 70%;
+  height: 100%;
 }
