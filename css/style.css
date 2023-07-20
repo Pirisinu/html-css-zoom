@@ -4,5 +4,19 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
+/* DEBUG */
+.debug{
+  background-color: rgba(137, 43, 226, 0.363);
+  border: 1px solid black;
+}
+/* MAIN */
+main .top-bar{
+  height: 60px;
+}
+main .box-main{
+  height: calc(100vh - 150px);
+}
+main .bottom-bar{
+  height: 90px;
+  bottom: 0;
+}
