@@ -34,7 +34,7 @@ main section.box-main{
   max-width: 1200px;
   margin: 0px auto;
   flex-wrap: wrap;
-  overflow: hidden;
+  overflow-y: scroll;
 }
 main section.box-main .box-img{
   height: 300px;
